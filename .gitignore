@@ -1,0 +1,37 @@
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+.vs/*
+
+# Rider
+.idea
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+TP1/ConsoleApp1/[Dd]ebug/
+TP1/ConsoleApp1/[Dd]ebugPublic/
+TP1/ConsoleApp1/[Rr]elease/
+TP1/ConsoleApp1/[Rr]eleases/
+TP1/ConsoleApp1/x64/
+TP1/ConsoleApp1/x86/
+TP1/ConsoleApp1/build/
+TP1/ConsoleApp1/bld/
+TP1/ConsoleApp1/[Bb]in/
+TP1/ConsoleApp1/[Oo]bj/
+TP1/ConsoleApp1/[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
