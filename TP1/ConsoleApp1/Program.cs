@@ -27,6 +27,14 @@ public class Program
 
         Console.WriteLine("Conversion-1) ");
         Conversion();
+
+        Console.WriteLine("Colores");
+        Colores(); 
+
+        Console.WriteLine("Mayora10");
+        Mayora10(); 
+
+
     }
 
     // 1) Crear una función que devuelva la suma de dos números recibidos por parámetros
@@ -181,5 +189,51 @@ public class Program
         Console.WriteLine(boolean);
         //retorna intenta convertir el string a boleano en caso de fracaso retorna un false solamente 
     } 
+
+ /* 3. Escriba una sentencia switch utilizando una enumeración con 3 colores (blanco, azul y negro) 
+ y paracada caso indicar un mensaje de cual es el color informado. //Ale
+ 
+ */
+    public static void Colores()
+    {
+        char ch;
+        Console.WriteLine("Que tipo de color eliges? \n B) blanco.\n A) Azul .\n N) Negro.");
+        ch = Convert.ToChar(Console.ReadLine());
+        switch(Char.ToLower(ch))
+         {
+             case 'a':
+             Console.WriteLine("Color informado: Azul");
+             break;
+             case 'b':
+             Console.WriteLine("Color informado: Blanco");
+             break;
+             case 'n':
+             Console.WriteLine("Color informado: Negro");
+             break;
+             default:
+             Console.WriteLine("no hay color para esa opcion");
+             break;
+         }//swich    
+         
+    }//void
+
+
+/*    4) Si se tiene una variable entera a, realice una sentencia if para evaluar si     
+la variable a es mayor a 10. Si es verdad, mostrar un mensaje indicando que el valor es mayor a 10. //Ale   */
+
+    public static void Mayora10()
+    {
+        int a;
+        Console.WriteLine("Ingrese un numero: ");
+        a = Convert.ToInt32(Console.ReadLine());  
+        if (a > 10){
+        Console.WriteLine($"El numero: {a}, es mayor a 10"); 
+        }
+        else
+        {
+        Console.WriteLine($"El numero: {a}, no es mayor a 10"); 
+        }
+        Console.WriteLine("Adios"); 
+    }
 
 }
