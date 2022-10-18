@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ale_l\\Documents\\GitHub\\ProgAvan-II\\TP1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\Agus\\Documents\\GitHub\\ProgAvan-II\\TP1\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ale_l\\Documents\\GitHub\\ProgAvan-II\\TP1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\Agus\\Documents\\GitHub\\ProgAvan-II\\TP1\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ale_l\\Documents\\GitHub\\ProgAvan-II\\TP1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\Agus\\Documents\\GitHub\\ProgAvan-II\\TP1\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\ale_l\\Documents\\GitHub\\ProgAvan-II\\TP1\\ConsoleApp1\\ConsoleApp1.csproj",
-        "packagesPath": "C:\\Users\\ale_l\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ale_l\\Documents\\GitHub\\ProgAvan-II\\TP1\\ConsoleApp1\\obj\\",
+        "projectPath": "C:\\Users\\Agus\\Documents\\GitHub\\ProgAvan-II\\TP1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "packagesPath": "C:\\Users\\Agus\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Agus\\Documents\\GitHub\\ProgAvan-II\\TP1\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ale_l\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Agus\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

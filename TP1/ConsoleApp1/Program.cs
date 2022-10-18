@@ -236,4 +236,27 @@ la variable a es mayor a 10. Si es verdad, mostrar un mensaje indicando que el v
         Console.WriteLine("Adios"); 
     }
 
+    //5) Al ejercicio del punto 4), agregar la sentencia de else y, en ella, indicar un mensaje de error. 
+    public static Boolean MayorElse(int valor ) 
+    { 
+
+        //Console.Write("Ingrese un Nro:"); 
+
+        //int valor = int.Parse(Console.ReadLine()); 
+        Boolean retorno=false;
+        if (valor > 10) 
+        { 
+            Console.Write("El Nro es Mayor a 10");
+            retorno =true;
+        } 
+        else 
+        { 
+            Console.Write("El nro de ser mayor a 10 "); 
+            retorno =false;
+        } 
+        //Console.ReadKey(); 
+
+        return retorno;
+    } 
+
 }

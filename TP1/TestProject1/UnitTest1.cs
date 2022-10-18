@@ -12,5 +12,17 @@ namespace TestProject1
             int actual = Program.Sumar(nro1, nro2);
             Assert.AreEqual(esperado, actual);
         }
+
+        [TestMethod]
+        public void TestMethod2()
+        {
+            int nro1 = 2;
+            Boolean retorno1 = Program.MayorElse(nro1);
+            Assert.AreEqual(false, retorno1);
+
+            int nro2 = 11;
+            Boolean retorno2 = Program.MayorElse(nro2);
+            Assert.AreEqual(true, retorno2);
+        }
     }
 }
