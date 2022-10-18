@@ -32,8 +32,11 @@ public class Program
         Colores(); 
 
         Console.WriteLine("Mayora10");
-        Mayora10(); 
+        Mayora10();
 
+        Console.WriteLine("MayorElse");
+        Console.Write("Ingrese un Nro:"); 
+        MayorElse(int.Parse(Console.ReadLine()));
 
     }
 
