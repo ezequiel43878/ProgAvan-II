@@ -46,4 +46,38 @@
 
 6. ¿Cuál es la diferencia entre la sentencia for y foreach? ¿Cuándo se debe utilizar cada una de ellas?
 
+    El Bucle for es una estructura de control determinada porque se conoce a priori dónde empieza y dónde termina.
+    La sentencia for consta de 3 partes:
+
+       + Condición de comienzo
+       + Condición de parada del proceso
+       + Condición de incremento del for
+
+    Utilizamos for con Arrays (una variable que almacena una gran cantidad de datos de un mismo tipo) para imprimirlos,
+    accederlos, y realizar operaciones con ellos.
+    Ademas un for se puede combinar con otras sentencias de control, como  if-else, if, etc., para darle más funcionalidad
+    a nuestro programa.
+
+    Asimismo, se pueden utilizar dentro del bucle for las sentencias de corte continue y break.
+    Break detiene el bucle completamente.
+    Continue detiene únicamente la iteración actual y salta a la siguiente.
+
+    También podemos establecer una evaluación booleana que siempre sea true, el bucle no dejará nunca de ejecutarse hasta que el programa
+    se detenga por falta de memoria.
+
+    No podemos utilizar false en un bucle for.
+
+
+    En cambio, el bucle for-each no permite tanto control como el bucle for.
+    La sentencia for-each nos permite recorrer una lista de objetos o variables primitivas, tiene la ventaja de que no es necesario
+    utilizar una variable que haga de contador ni requiere establecer una condición para comprobar si debe finalizar la iteración.
+
+    La estructura for-each tiene una construcción sencilla, primero la palabra for seguida de un paréntesis, dentro de este hay 3 partes
+
+        + Tipo de dato que se va a extraer.
+        + Tipo de variable primitiva.
+        + Nombre que recibe la variable local con la que se va a operar el bucle.
+    
+    No se puede prescindir de ninguna de las tres partes.
+
 7. Defina una variable a que en cada ciclo de una sentencia while incremente su valor en 5. Cuando la variable a exceda el valor de 50, el ciclo while debe finalizar.
