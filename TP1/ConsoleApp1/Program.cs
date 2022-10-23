@@ -38,6 +38,8 @@ public class Program
         Console.Write("Ingrese un Nro:"); 
         MayorElse(int.Parse(Console.ReadLine()));
 
+        Mayora50();
+
     }
 
     // 1) Crear una función que devuelva la suma de dos números recibidos por parámetros
@@ -260,6 +262,25 @@ la variable a es mayor a 10. Si es verdad, mostrar un mensaje indicando que el v
         //Console.ReadKey(); 
 
         return retorno;
-    } 
+    }
+
+    /* 6) ¿Cuál es la diferencia entre la sentencia for y foreach? ¿Cuándo se debe utilizar cada una de ellas?
+
+    Respuesta en el Readme
+    
+    */
+
+    //  7) Defina una variable a que en cada ciclo de una sentencia while incremente su valor en 5. Cuando la variable a exceda el valor de 50, el ciclo while debe finalizar.
+
+    private static void Mayora50(){
+
+        int a = 0;
+
+        while (a <= 50)
+        {
+            Console.WriteLine(a);
+            a = a + 5;
+        }
+    }
 
 }
